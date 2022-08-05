@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="86.055" tests="6" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="/Users/afnan/Seleniumworkspace/E2EProject/src/main/java/resources/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/afnan/Seleniumworkspace/E2EProject/target/test-classes:/Users/afnan/Seleniumworkspace/E2EProject/target/classes:/Users/afnan/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/afnan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-java/4.3.0/selenium-java-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-api/4.3.0/selenium-api-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.3.0/selenium-chrome-driver-4.3.0.jar:/Users/afnan/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/afnan/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/afnan/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/afnan/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/afnan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/afnan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/afnan/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/afnan/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/afnan/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.3.0/selenium-chromium-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-json/4.3.0/selenium-json-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.3.0/selenium-devtools-v101-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.3.0/selenium-devtools-v102-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v103/4.3.0/selenium-devtools-v103-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.3.0/selenium-devtools-v85-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.3.0/selenium-edge-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.3.0/selenium-firefox-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.3.0/selenium-ie-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.3.0/selenium-opera-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.3.0/selenium-remote-driver-4.3.0.jar:/Users/afnan/.m2/repository/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.78.Final/netty-transport-classes-epoll-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.78.Final/netty-transport-classes-kqueue-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-native-epoll/4.1.78.Final/netty-transport-native-epoll-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.78.Final/netty-transport-native-kqueue-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-api/1.15.0/opentelemetry-api-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-context/1.15.0/opentelemetry-context-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.15.0/opentelemetry-exporter-logging-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.15.0/opentelemetry-sdk-metrics-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.15.0-alpha/opentelemetry-sdk-logs-1.15.0-alpha.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.15.0/opentelemetry-sdk-common-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.15.0/opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.15.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.15.0/opentelemetry-sdk-trace-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.15.0/opentelemetry-sdk-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.15.0-alpha/opentelemetry-semconv-1.15.0-alpha.jar:/Users/afnan/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/afnan/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/afnan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/afnan/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/afnan/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/afnan/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/afnan/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/afnan/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-http/4.3.0/selenium-http-4.3.0.jar:/Users/afnan/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.3.0/selenium-safari-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-support/4.3.0/selenium-support-4.3.0.jar:/Users/afnan/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/afnan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/afnan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/afnan/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/afnan/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/afnan/.m2/repository/org/apache/logging/log4j/log4j-core/2.18.0/log4j-core-2.18.0.jar:/Users/afnan/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/afnan/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/afnan/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/afnan/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/afnan/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/afnan/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/afnan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/afnan/.m2/repository/org/slf4j/slf4j-api/2.0.0-alpha7/slf4j-api-2.0.0-alpha7.jar:/Users/afnan/.m2/repository/org/slf4j/slf4j-simple/2.0.0-alpha7/slf4j-simple-2.0.0-alpha7.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/afnan/Seleniumworkspace/E2EProject/target/surefire/surefirebooter-20220721233148724_3.jar /Users/afnan/Seleniumworkspace/E2EProject/target/surefire 2022-07-21T23-31-48_275-jvmRun1 surefire-20220721233148724_1tmp surefire_0-20220721233148724_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/afnan/Seleniumworkspace/E2EProject/target/test-classes:/Users/afnan/Seleniumworkspace/E2EProject/target/classes:/Users/afnan/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/afnan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-java/4.3.0/selenium-java-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-api/4.3.0/selenium-api-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.3.0/selenium-chrome-driver-4.3.0.jar:/Users/afnan/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/afnan/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/afnan/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/afnan/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/afnan/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/afnan/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/afnan/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/afnan/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/afnan/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.3.0/selenium-chromium-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-json/4.3.0/selenium-json-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.3.0/selenium-devtools-v101-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.3.0/selenium-devtools-v102-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v103/4.3.0/selenium-devtools-v103-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.3.0/selenium-devtools-v85-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.3.0/selenium-edge-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.3.0/selenium-firefox-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.3.0/selenium-ie-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.3.0/selenium-opera-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.3.0/selenium-remote-driver-4.3.0.jar:/Users/afnan/.m2/repository/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.78.Final/netty-transport-classes-epoll-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.78.Final/netty-transport-classes-kqueue-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-native-epoll/4.1.78.Final/netty-transport-native-epoll-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.78.Final/netty-transport-native-kqueue-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-api/1.15.0/opentelemetry-api-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-context/1.15.0/opentelemetry-context-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.15.0/opentelemetry-exporter-logging-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.15.0/opentelemetry-sdk-metrics-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.15.0-alpha/opentelemetry-sdk-logs-1.15.0-alpha.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.15.0/opentelemetry-sdk-common-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.15.0/opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.15.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.15.0/opentelemetry-sdk-trace-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.15.0/opentelemetry-sdk-1.15.0.jar:/Users/afnan/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.15.0-alpha/opentelemetry-semconv-1.15.0-alpha.jar:/Users/afnan/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/afnan/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/afnan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/afnan/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/afnan/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/afnan/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/afnan/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/afnan/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/afnan/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-http/4.3.0/selenium-http-4.3.0.jar:/Users/afnan/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.3.0/selenium-safari-driver-4.3.0.jar:/Users/afnan/.m2/repository/org/seleniumhq/selenium/selenium-support/4.3.0/selenium-support-4.3.0.jar:/Users/afnan/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/afnan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/afnan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/afnan/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/afnan/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/afnan/.m2/repository/org/apache/logging/log4j/log4j-core/2.18.0/log4j-core-2.18.0.jar:/Users/afnan/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/afnan/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/afnan/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/afnan/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/afnan/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/afnan/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/afnan/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/afnan/.m2/repository/org/slf4j/slf4j-api/2.0.0-alpha7/slf4j-api-2.0.0-alpha7.jar:/Users/afnan/.m2/repository/org/slf4j/slf4j-simple/2.0.0-alpha7/slf4j-simple-2.0.0-alpha7.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/afnan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/afnan/Seleniumworkspace/E2EProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/afnan/Seleniumworkspace/E2EProject/target/surefire/surefirebooter-20220721233148724_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="user.name" value="afnan"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chromeheadless"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/afnan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/d0/nvv8lqs94q3dfy2scjyrf0t80000gn/T/"/>
+    <property name="java.version" value="11.0.15.1"/>
+    <property name="user.dir" value="/Users/afnan/Seleniumworkspace/E2EProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/afnan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="Academy.AppTest" time="0.027"/>
+  <testcase name="basePageHeader" classname="Academy.ValidateTitle" time="1.081">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at Academy.ValidateTitle.basePageHeader(ValidateTitle.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[chromeheadless
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63528
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 21, 2022 11:31:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 21, 2022 11:31:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="basePageTitle" classname="Academy.ValidateTitle" time="0.158"/>
+  <testcase name="basePageNavigation[nonrestricteduser@gmail.com, 123456, restricted user](1)" classname="Academy.HomePage" time="20.041">
+    <failure message="element click intercepted: Element &lt;a href=&quot;https://rahulshettyacademy.com/sign_in/&quot;&gt;...&lt;/a&gt; is not clickable at point (758, 16). Other element would receive the click: &lt;div class=&quot;listbuilder-popup-content&quot;&gt;...&lt;/div&gt;&#10;  (Session info: headless chrome=103.0.5060.134)&#10;Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;&#10;System info: host: &apos;Afnans-MacBook-Air.local&apos;, ip: &apos;2003:c0:df2e:fb00:e9c6:aa7c:4a24:a8b6%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.4&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2ffec3fe9ef82ab114c64199017a8281, clickElement {id=b0a8bd24-119f-4c95-a11d-25a9bef16ea2}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/d0/nvv8lqs94q3...}, goog:chromeOptions: {debuggerAddress: localhost:57413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57413/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on MAC (2ffec3fe9ef82ab114c64199017a8281)] -&gt; css selector: a[href*=&apos;sign_in&apos;]]&#10;Session ID: 2ffec3fe9ef82ab114c64199017a8281" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (758, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: headless chrome=103.0.5060.134)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'Afnans-MacBook-Air.local', ip: '2003:c0:df2e:fb00:e9c6:aa7c:4a24:a8b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ffec3fe9ef82ab114c64199017a8281, clickElement {id=b0a8bd24-119f-4c95-a11d-25a9bef16ea2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/d0/nvv8lqs94q3...}, goog:chromeOptions: {debuggerAddress: localhost:57413}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57413/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (2ffec3fe9ef82ab114c64199017a8281)] -> css selector: a[href*='sign_in']]
+Session ID: 2ffec3fe9ef82ab114c64199017a8281
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at pageObjects.landingPage.getLogin(landingPage.java:22)
+	at Academy.HomePage.basePageNavigation(HomePage.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[chromeheadless
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55214
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 21, 2022 11:32:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 21, 2022 11:32:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation[restricteduser@gmail.com, 3456, non restricted user](2)" classname="Academy.HomePage" time="19.956"/>
+  <testcase name="basePageNavigation" classname="Academy.ValidateNavbar" time="0.189">
+    <system-out><![CDATA[chromeheadless
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 49939
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 21, 2022 11:32:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 21, 2022 11:32:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+</testsuite>
